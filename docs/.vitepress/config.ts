@@ -11,6 +11,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/runsme-com/',
+  
+  head: [
+    // 浏览器tab图标 favicon
+    ['link', { rel: 'icon', type:'image/x-icon', href: '/runsme-com/favicon.ico' }]
+  ],
 
   title: "runsme",
   description: "The project plan and management repository of the Runsme team.",
