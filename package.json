@@ -1,0 +1,28 @@
+{
+  "name": "runsme-com",
+  "version": "1.0.0",
+  "description": "The project plan and management repository of the Runsme team.",
+  "keywords": [
+    "runsme",
+    "docs"
+  ],
+  "homepage": "https://github.com/runsme-com/runsme-com#readme",
+  "bugs": {
+    "url": "https://github.com/runsme-com/runsme-com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runsme-com/runsme-com.git"
+  },
+  "license": "MIT",
+  "author": "Skixkk",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.19"
+  }
+}
